@@ -7,14 +7,18 @@ and formatting Time Interval measurements that
 are normally used in Allan Deviation or similar
 stability measurements.
 
+
+Copyright 2015, Thomas C. McDermott, N5EG
+All rights reserved.
+
 The GRC file references the Hermes SDR radio,
 but it is easy to replace. The sample rate is set
-at 48000 s/s, and is a parameter.
+at 48000 s/s, and is a parameter. It can be changed.
 
 One python file converts the binary file created
-by gnuradio to ASCII text, while the other tranlates
-the time measuremetns to time intervals and also
-throws out outlier samples.
+by gnuradio to ASCII floating point text, while the
+other tranlates the time measuremetns to time
+intervals and also throws out outlier samples.
 
 The time interval converter narrowly bounds where
 samples must be to survive. This is due to a problem

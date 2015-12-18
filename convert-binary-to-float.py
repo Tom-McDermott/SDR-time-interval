@@ -1,8 +1,9 @@
+#!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 """
 Created on Thu Mar 26 10:48:02 2015
 
-@author: tom
+@author: Tom McDermott, N5EG
 """
 
 #Read a file with 4-byte (32 bit) floating point numbers and

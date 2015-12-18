@@ -1,8 +1,9 @@
+#!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 """
 Created on Sat Dec 12 19:00:00 2015
 
-@author: tom
+@author: Tom McDermott, N5EG
 """
 
 #Convert ramp voltages to time intervals
