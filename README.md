@@ -9,7 +9,9 @@ stability measurements.
 
 
 Copyright 2015, Thomas C. McDermott, N5EG
-All rights reserved.
+Contents are licensed under the GNU Public License,
+version 2.0, or at your option, any later version.
+
 
 The GRC file references the Hermes SDR radio,
 but it is easy to replace. The sample rate is set
