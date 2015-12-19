@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 26 10:48:02 2015
+Created on Sat Dec 12 10:00:00 2015
 
 @author: Tom McDermott, N5EG
 """
