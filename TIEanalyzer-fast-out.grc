@@ -163,7 +163,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(112, 171)</value>
+      <value>(112, 91)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -218,7 +218,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(952, 801)</value>
+      <value>(952, 577)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -265,7 +265,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(440, 633)</value>
+      <value>(536, 297)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -312,7 +312,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(624, 827)</value>
+      <value>(624, 603)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -321,6 +321,226 @@
     <param>
       <key>id</key>
       <value>blocks_delay_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_ports</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_delay</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>delay</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(624, 651)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_delay_0_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_ports</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_delay</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>delay</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(624, 699)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_delay_0_0_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_ports</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_delay</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>delay</key>
+      <value>4</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(624, 747)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_delay_0_0_0_0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>num_ports</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>byte</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+  </block>
+  <block>
+    <key>blocks_delay</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>delay</key>
+      <value>5</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(624, 795)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>blocks_delay_0_0_0_0_0</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -369,7 +589,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(624, 899)</value>
+      <value>(624, 843)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -428,7 +648,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1080, 203)</value>
+      <value>(1080, 123)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -471,7 +691,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(928, 219)</value>
+      <value>(928, 139)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -522,7 +742,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(856, 889)</value>
+      <value>(904, 745)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -569,7 +789,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 561)</value>
+      <value>(24, 361)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -608,7 +828,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value>Suppress noise at zero crossing.</value>
     </param>
     <param>
       <key>affinity</key>
@@ -620,7 +840,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(768, 873)</value>
+      <value>(816, 665)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -644,7 +864,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>num_inputs</key>
-      <value>2</value>
+      <value>6</value>
     </param>
   </block>
   <block>
@@ -667,7 +887,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(456, 209)</value>
+      <value>(456, 129)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -710,7 +930,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1056, 817)</value>
+      <value>(1056, 593)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -749,7 +969,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(448, 801)</value>
+      <value>(448, 577)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -808,7 +1028,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(168, 427)</value>
+      <value>(168, 227)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -915,7 +1135,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(784, 579)</value>
+      <value>(784, 243)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -986,7 +1206,7 @@ since it may be noisy.</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1096, 361)</value>
+      <value>(1096, 209)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1344,10 +1564,34 @@ since it may be noisy.</value>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_delay_0_1</source_block_id>
+    <source_block_id>blocks_delay_0_0</source_block_id>
     <sink_block_id>blocks_or_xx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_delay_0_0_0</source_block_id>
+    <sink_block_id>blocks_or_xx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>2</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_delay_0_0_0_0</source_block_id>
+    <sink_block_id>blocks_or_xx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>3</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_delay_0_0_0_0_0</source_block_id>
+    <sink_block_id>blocks_or_xx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>4</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>blocks_delay_0_1</source_block_id>
+    <sink_block_id>blocks_or_xx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>5</sink_key>
   </connection>
   <connection>
     <source_block_id>blocks_keep_one_in_n_0</source_block_id>
@@ -1400,6 +1644,30 @@ since it may be noisy.</value>
   <connection>
     <source_block_id>digital_binary_slicer_fb_0</source_block_id>
     <sink_block_id>blocks_delay_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>digital_binary_slicer_fb_0</source_block_id>
+    <sink_block_id>blocks_delay_0_0_0_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
