@@ -9,7 +9,8 @@ Created on Sat Dec 20 12:50:00 2015
 #Convert ramp voltages to time intervals
 #Ramp tics are defined as precise time from system clock
 #Many output samples.  Pick one each time the value changes
-#Correcteed to accumulate time interval from each sample
+#Corrected to accumulate time interval from each sample
+#Assumes ~1 Hertz frequency difference.
 
 
 file = open("tie_vec_outfile")
@@ -46,8 +47,7 @@ while file:
         dropped += 1
     else:
         AccumTime += (TI - 100.0)
-        CorrectedTI = TI + AccumTime
-        file2.write(str(CorrectedTI)+'\n')  
+        file2.write(str(AccumTime)+'\n')  
        
     numsamples+=1
  
