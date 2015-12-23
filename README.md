@@ -30,3 +30,13 @@ python code.
 
 Expect these files to change frequently for awhile.
 
+1. Run the flowgraph. It produces a binary output file
+tie-vector.
+2. Run the convert-binary-to-float.py program. It
+converts tie-vector to tie_vec_outfile to ASCII.
+3. Run convert-fast-tie-to-TimeInterval.py program.
+It converts the over-sampled time intervals to one
+sample per second TimeIntervals file.
+4. This can be directly processed by Tom Van Baak's
+Adev.c program to produce Allan Deviation.
+
