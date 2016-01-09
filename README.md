@@ -30,13 +30,27 @@ python code.
 
 Expect these files to change frequently for awhile.
 
-1. Run the flowgraph. It produces a binary output file
-tie-vector.
-2. Run the convert-binary-to-float.py program. It
-converts tie-vector to tie_vec_outfile to ASCII.
-3. Run convert-fast-tie-to-TimeInterval.py program.
-It converts the over-sampled time intervals to one
-sample per second TimeIntervals file.
-4. This can be directly processed by Tom Van Baak's
-Adev.c program to produce Allan Deviation.
+1. The flowgraph has been replaced by one that uses
+strictly math to timestamp the zerocrossings. Gnuradio
+uses single-point floats which causes Allan Deviation
+background noise of about 1E-14 at tau=1 second.
+
+2. Run the convert-int/combo.py program. It reads the
+binary values produced by Gnuradio into integers then
+computes the time intervals, and reformats to floats.
+The program has hardcoded the sample rate at 48000 samp/sec.
+If you sample at a different rate, you will need to change
+one line in this converter.
+
+3. You may wish to run the Python program Min-and-Max-
+from-TimeInterval.py.  It will print the mean, minimum,
+and maximum Time Intervals. This will help you see
+if there are any outliers in the file.
+
+4. The TimeInterval file can be diretly processed
+by Tom Van Baak's Adev.c program to produce Allan Deviation.
+For my setup the command was:
+$ ./Adev 1 1e-9 < TimeIntervals
+This means one measurement per second, each unit equal to one
+nanosecond.
 
