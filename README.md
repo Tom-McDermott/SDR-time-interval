@@ -31,9 +31,10 @@ python code.
 Expect these files to change frequently for awhile.
 
 1. The flowgraph has been replaced by one that uses
-strictly math to timestamp the zerocrossings. Gnuradio
-uses single-point floats which causes Allan Deviation
-background noise of about 1E-14 at tau=1 second.
+strictly integer math to timestamp the zerocrossings.
+Gnuradio uses single-point floats which causes Allan
+Deviation background noise of about 1E-14 at tau=1
+second.
 
 2. Run the convert-int/combo.py program. It reads the
 binary values produced by Gnuradio into integers then
